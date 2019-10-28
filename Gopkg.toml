@@ -1,0 +1,43 @@
+[[constraint]]
+  name = "github.com/Sirupsen/logrus"
+  version = "1.4.2"
+
+[[constraint]]
+  branch = "master"
+  name = "github.com/cydev/zero"
+
+[[constraint]]
+  branch = "master"
+  name = "github.com/gocarina/gocsv"
+
+[[constraint]]
+  name = "github.com/gorilla/mux"
+  version = "1.7.3"
+
+[[constraint]]
+  name = "github.com/jinzhu/gorm"
+  version = "1.9.11"
+
+[[constraint]]
+  name = "github.com/json-iterator/go"
+  version = "1.1.8"
+
+[[constraint]]
+  name = "github.com/kelseyhightower/envconfig"
+  version = "1.4.0"
+
+[[constraint]]
+  branch = "master"
+  name = "golang.org/x/net"
+
+[[constraint]]
+  name = "google.golang.org/grpc"
+  version = "1.24.0"
+
+[[constraint]]
+  name = "gopkg.in/go-playground/validator.v9"
+  version = "9.30.0"
+
+[prune]
+  go-tests = true
+  unused-packages = true
