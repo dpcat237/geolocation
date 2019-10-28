@@ -24,7 +24,7 @@
 dep ensure -vendor-only -v
 make
 # export env variables described above ...
-./geolocation
+./geolocation --help
 ```
 
 ## Required environment variables to build Docker image

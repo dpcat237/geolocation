@@ -10,10 +10,10 @@ import (
 // rootCmd defines generic description of app for CLI
 var rootCmd = &cobra.Command{
 	Use:   "geolocation",
-	Short: "Geouser load data to database from CSV files and provide user data",
-	Long: `Geouser behavior:
-                - Load users sessions from CSV
-                - Provide users sessions via RPC`,
+	Short: "Geolocation loads data to database from CSV files and provides geo location data",
+	Long: `Geolocation behaviors:
+                - Load geo locations from CSV
+                - Provide geo location via RPC`,
 }
 
 func Execute() {
